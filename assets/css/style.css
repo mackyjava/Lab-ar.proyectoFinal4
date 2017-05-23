@@ -54,3 +54,48 @@ nav{
 .margin-t{
 	margin-top: 40%;
 }
+.map{
+	width: 101%;
+	height: 500px;
+}
+iframe{
+	width: 100%;
+	height: 460px;
+	margin-top: 3%;
+}
+input{
+	margin-left: -8%;
+	margin-top: 5%;
+	width: 30%;
+	border-radius: 6%;
+	color: white;
+	background-color: #FFC300;
+}
+span{
+	margin-top: 5%;
+}
+footer{
+	width: 101%;
+	height: 500px;
+	background-color: gray;
+}
+.imgL{
+	width: 10%;
+	height: 10%;
+}
+ul{
+	list-style: none;
+	font-size: 16px;
+}
+li{
+	margin-top: 10px;
+}
+a{
+	color: white;
+}
+.subir{
+	margin-top: -7%;
+}
+footer p{
+	margin-top:-1%;
+}
