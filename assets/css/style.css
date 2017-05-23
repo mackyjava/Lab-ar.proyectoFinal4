@@ -27,3 +27,30 @@ nav{
 	width:35%;
 	height: 20px;
 }
+.bg-color{
+	background-color:#FFC300;
+}
+.seccion-iphone{
+	width: 101%;
+	height: 550px;
+}
+.bordes{
+	width: 75%;
+	height: 450px;
+	border:2px solid white;
+	margin-top: 50px;
+}
+.seccion-tres{
+	width: 101%;
+	height: 500px;
+	background-image: url(../img/conduce.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.cont-sec-tres{
+	height: 99%;
+	background-color: rgba(0,0,0,.5);
+}
+.margin-t{
+	margin-top: 40%;
+}
