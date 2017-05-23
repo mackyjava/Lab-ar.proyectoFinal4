@@ -99,3 +99,111 @@ a{
 footer p{
 	margin-top:-1%;
 }
+@media(max-width: 650px){
+  .home{
+	 width: 100%;
+	 height: 300px;
+	 background-image:url(../img/taxi.jpg);
+	 background-size: 100%;
+	 background-repeat: no-repeat;
+	 margin-top: 12%;
+}
+nav{
+	width: 100%;
+	height: 75px;
+}
+.cont-info{
+	width: 70%;
+	height: 150px;
+    top: 35px;
+    left: 160px;
+    background-color: #FFC300;
+}
+.bajar{
+	margin-top:-1%;
+}
+.white-text{
+	color: white;
+}
+.resize{
+	width:35%;
+	height: 20px;
+}
+.bg-color{
+	background-color:#FFC300;
+}
+.seccion-iphone{
+	width: 102.5%;
+	height: 515px;
+}
+.bordes{
+	width: 75%;
+	height: 450px;
+	border:2px solid white;
+	margin-top: 25px;
+	margin-left:15%;
+}
+.seccion-tres{
+	width: 102%;
+	height: 200px;
+	background-image: url(../img/conduce.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+.cont-sec-tres{
+	height: 99%;
+	margin-top:-4%;
+	background-color: rgba(0,0,0,.5);
+}
+
+.map{
+	width: 102%;
+	height: 700px;
+}
+iframe{
+	width: 100%;
+	height: 300px;
+}
+input{
+	border-radius: 6%;
+	color: white;
+	background-color: #FFC300;
+}
+span{
+	margin-top: 5%;
+}
+footer{
+	width: 101%;
+	height: 400px;
+	background-color: #343030;
+}
+.imgL{
+	width: 15%;
+	height: 15%;
+	margin-top: 3%;
+}
+ul{
+	list-style: none;
+	font-size: 16px;
+}
+li{
+	margin-top: 4px;
+}
+a{
+	color: white;
+}
+.subir{
+	margin-top: -45%;
+}
+footer p{
+	margin-top:-1%;
+	color: white;
+}
+.hide{
+	display: none;
+}
+.margin-t{
+	margin-top: 8%;
+}
+
+}
