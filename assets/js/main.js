@@ -34,3 +34,4 @@ function mostrar3 () {
 function ocultar () {
     modal.style.display="none";  
 }
+$('.dropdown-toggle').dropdown()

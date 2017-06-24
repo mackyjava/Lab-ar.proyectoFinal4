@@ -70,7 +70,7 @@ iframe{
 	margin-top: -20%;
 	
 }
-input{
+#viaja input{
 	margin-left: -8%;
 	margin-top: 5%;
 	width: 30%;
@@ -119,25 +119,33 @@ footer p{
 
 }
 
-@media (max-width:700px){
+@media (max-width:518px){
   .home{
-	 	width: 100%;
-	 	height: 400px;
+	 	width: 63%;
+	 	height: 220px;
 	 	background-image:url(../img/taxi.jpg);
 	 	background-size: 100%;
 	 	background-repeat: no-repeat;
 	 	margin-top: 12%;
 	}
 	nav{
-		width: 100%;
-		height: 75px;
+		width: 63%;
+		height: 65px;
 	}
     .cont-info{
 		width: 47%;
-		height: 160px;
+		height: 120px;
     	margin-top: 9%;
-    	left: -8%;
+    	left: -10%;
    	 	background-color: #FFC300;
+    }
+    .cont-info h2{
+     font-size: 15px;
+    }
+    #chico{
+    	width: 80px;
+    	margin-left: -10%;
+    	font-size: 6px;
     }
 	.bajar{
 	margin-top:-1%;
@@ -146,27 +154,27 @@ footer p{
 		color: white;
 	}
 	.resize{
-		width:35%;
-	height: 20px;
+		width:80%;
+	  height: 10px;
 	}
 	.bg-color{
 		background-color:#FFC300;
 	}
 	.seccion-iphone{
-		width: 102.5%;
-		height: 615px;
+		width: 66%;
+		height: 230px;
 		margin-top: -12%;
 }
 .bordes{
 	width: 75%;
-	height: 450px;
+	height: 150px;
 	border:2px solid white;
 	margin-top: 12%;
 	margin-left:15%;
 }
 .seccion-tres{
-	width: 102%;
-	height: 200px;
+	width: 66%;
+	height: 220px;
 	background-image: url(../img/conduce.jpg);
 	background-size:100%;
 	background-repeat: no-repeat;
@@ -178,12 +186,12 @@ footer p{
 }
 
 .map{
-	width: 102%;
-	height: 700px;
+	width: 66%;
+	height: 500px;
 }
 iframe{
-	width: 100%;
-	height: 300px;
+	width: 130%;
+	height: 130px;
 	margin-top: 5%;
 }
 input{
@@ -197,18 +205,18 @@ input{
 }
 
 footer{
-	width: 99.3%;
-	height: 600px;
+	width: 62.7%;
+	height: 300px;
 	background-color: #343030;
 }
 .imgL{
-	width: 15%;
+	width: 25%;
 	height: 15%;
 	margin-top: 3%;
 }
 ul{
 	list-style: none;
-	font-size: 1.5em;
+	font-size: .7em;
 }
 li{
 	margin-top: 2%;
@@ -270,6 +278,9 @@ form{
 	margin-left: .1%;
 	margin-top: -.1%;
 }
+#form1 a{
+color: yellow;
+}
 #form2 .btn-lg{
 	background-color: black;
 	color: white;
@@ -278,6 +289,7 @@ form{
 }
 #form2 input{
 	margin-top: -.5%;
+	margin-left: -8%;
 }
 #form2 select{
 	margin-left: 4%;
@@ -289,4 +301,7 @@ form{
 	background-color: black;
 	opacity: .9;
 	color: white;
+}
+#form3 a{
+	color:blue;
 }
