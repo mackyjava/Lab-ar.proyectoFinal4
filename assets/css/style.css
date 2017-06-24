@@ -119,10 +119,10 @@ footer p{
 
 }
 
-@media (max-width:650px){
+@media (max-width:685px){
   .home{
 	 	width: 63%;
-	 	height: 220px;
+	 	height: 290px;
 	 	background-image:url(../img/taxi.jpg);
 	 	background-size: 100%;
 	 	background-repeat: no-repeat;
@@ -238,8 +238,8 @@ footer p{
 	margin-top: 8%;
 }
 .iphone{
-	width:260%;
-	margin-top: 50%;
+	width:150%;
+	margin-top: 30%;
 }
 }
 
