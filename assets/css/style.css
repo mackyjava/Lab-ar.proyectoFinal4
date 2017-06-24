@@ -1,8 +1,8 @@
 
-@media( min-width:699px ){
+@media( min-width:800px ){
 .home{
 	width: 100%;
-	height: 800px;
+	height: 920px;
 	background-image:url(../img/taxi.jpg);
 	background-size: cover;
 	margin-top: -10%;
@@ -12,15 +12,15 @@ nav{
 	height: 75px;
 }
 .cont-info{
-	width: 37%;
-	height: 300px;
-    top: 240px;
+	width: 35%;
+	height: 340px;
+    margin-top:20%;
     border: 2px solid yellow;
-    right:-50px;
+    right:-7%;
     background-color: #FFC300;
 }
 .bajar{
-	margin-top:2%;
+	margin-top:4%;
 }
 .white-text{
 	color: white;
@@ -40,7 +40,7 @@ nav{
 	width: 75%;
 	height: 450px;
 	border:2px solid white;
-	margin-top: 50px;
+	margin-top: 5%;
 }
 .seccion-tres{
 	width: 101%;
@@ -50,22 +50,27 @@ nav{
 	background-repeat: no-repeat;
 }
 .cont-sec-tres{
-	height: 97%;
+	height: 89%;
 	background-color: rgba(0,0,0,.5);
 }
 .margin-t{
+	margin-top: 10%;
+}
+.margin{
 	margin-top: 40%;
 }
 .map{
 	width: 101%;
 	height:500px;
+	margin-top: -4%;
 }
 iframe{
 	width: 100%;
-	height: 400px;
-	margin-top: -25%;
+	height: 250px;
+	margin-top: -20%;
+	
 }
-input{
+#viaja input{
 	margin-left: -8%;
 	margin-top: 5%;
 	width: 30%;
@@ -73,12 +78,12 @@ input{
 	color: white;
 	background-color: #FFC300;
 }
-span{
+.fix{
 	margin-top: 5%;
 }
 footer{
 	width: 101%;
-	height: 500px;
+	height: 550px;
 	background-color: #343030;
 }
 .imgL{
@@ -90,7 +95,7 @@ ul{
 	font-size: 16px;
 }
 li{
-	margin-top: 10px;
+	margin-top: 3%;
 }
 a{
 	color: white;
@@ -106,75 +111,88 @@ footer p{
 	display: none;
 }
 .mostrar{
-	display: block important;
+	display: block;
+}
+.bajarT{
+	margin-top: 12.5%;
 }
 
 }
 
-@media (max-width:698px){
+@media (max-width:750px){
   .home{
-	 width: 100%;
-	 height: 300px;
-	 background-image:url(../img/taxi.jpg);
-	 background-size: 100%;
-	 background-repeat: no-repeat;
-	 margin-top: 12%;
+	 	width: 100%;
+	 	height: 290px;
+	 	background-image:url(../img/taxi.jpg);
+	 	background-size: 100%;
+	 	background-repeat: no-repeat;
+	 	margin-top: 12%;
 	}
 	nav{
-	width: 100%;
-	height: 75px;
+		width: 89%;
+		height: 65px;
 	}
     .cont-info{
-	width: 70%;
-	height: 150px;
-    top: 35px;
-    left: 160px;
-    background-color: #FFC300;
-	}
-.bajar{
+		width: 47%;
+		height: 120px;
+    	margin-top: 9%;
+    	left: -10%;
+   	 	background-color: #FFC300;
+    }
+    .cont-info h2{
+     font-size: 15px;
+    }
+    #chico{
+    	width: 80px;
+    	margin-left: -10%;
+    	font-size: 6px;
+    }
+	.bajar{
 	margin-top:-1%;
-}
-.white-text{
-	color: white;
-}
-.resize{
-	width:35%;
-	height: 20px;
-}
-.bg-color{
-	background-color:#FFC300;
-}
-.seccion-iphone{
-	width: 102.5%;
-	height: 515px;
+	}
+	.white-text{
+		color: white;
+	}
+	.resize{
+		width:80%;
+	  height: 10px;
+	}
+	.bg-color{
+		background-color:#FFC300;
+	}
+	.seccion-iphone{
+		width: 104%;
+		height: 230px;
+		margin-top: -16%;
 }
 .bordes{
 	width: 75%;
-	height: 450px;
+	height: 150px;
 	border:2px solid white;
-	margin-top: 25px;
+	margin-top: 12%;
 	margin-left:15%;
 }
 .seccion-tres{
-	width: 102%;
-	height: 200px;
+	width: 104%;
+	height: 220px;
 	background-image: url(../img/conduce.jpg);
 	background-size:100%;
 	background-repeat: no-repeat;
 }
 .cont-sec-tres{
 	height: 99%;
-	margin-top:-4%;
+	margin-top: 1%;
 	background-color: rgba(0,0,0,.5);
 }
 
 .map{
-	width: 102%;
-	height: 700px;
+	width: 104%;
+	height: 500px;
 }
 iframe{
-	width: 100%;
-	height: 300px;
+	width: 130%;
+	height: 130px;
+	margin-top: 5%;
 }
 input{
 	border-radius: 6%;
@@ -182,25 +200,26 @@ input{
 	background-color: #FFC300;
 	margin-top: 5%;
 }
-span{
+.fix{
 	margin-top: 5%;
 }
+
 footer{
-	width: 101%;
-	height: 400px;
+	width: 100%;
+	height: 310px;
 	background-color: #343030;
 }
 .imgL{
-	width: 15%;
+	width: 25%;
 	height: 15%;
 	margin-top: 3%;
 }
 ul{
 	list-style: none;
-	font-size: 16px;
+	font-size: .7em;
 }
 li{
-	margin-top: 4px;
+	margin-top: 2%;
 }
 a{
 	color: white;
@@ -218,21 +237,71 @@ footer p{
 .margin-t{
 	margin-top: 8%;
 }
+.iphone{
+	width:150%;
+	margin-top: 30%;
 }
+}
+
 #modal {
 	display:none;
-	padding: 70px;
+	padding: 5%;
     position:fixed;
     background-color: rgba(0,5,0,0.5);
-    border:solid violet 6px;
+    border:solid violet 2%;
     width: 100%;
     height: 100%;
     z-index: 1;
     top: 0;
     left: 0;
+    opacity: .9;
 }
 form{
 	display: none;
-	width: 45%;
-	background-color:#FFC300; 
+	margin-top: 1%;
+	width: 50%;
+	height: 120%;
+	margin-left: 25%;
+	background-color:gray;
+	 
+}
+
+.contP{
+	width: 50%;
+	height: 250px;
+	background-color: white;
+	margin-left: 25%; 
+}
+.arreglo{
+	width: 264px;
+	height: 30px;
+	margin-left: .1%;
+	margin-top: -.1%;
+}
+#form1 a{
+color: yellow;
+}
+#form2 .btn-lg{
+	background-color: black;
+	color: white;
+	width: 100%;
+	margin-left: -10%;
+}
+#form2 input{
+	margin-top: -.5%;
+	margin-left: -8%;
+}
+#form2 select{
+	margin-left: 4%;
+}
+#form2 .btn-color{
+	background-color:#200A60;
+}
+#form3{
+	background-color: black;
+	opacity: .9;
+	color: white;
+}
+#form3 a{
+	color:blue;
 }
