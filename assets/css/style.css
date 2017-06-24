@@ -119,7 +119,7 @@ footer p{
 
 }
 
-@media (max-width:518px){
+@media (max-width:650px){
   .home{
 	 	width: 63%;
 	 	height: 220px;
