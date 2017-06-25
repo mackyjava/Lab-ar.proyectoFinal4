@@ -2,7 +2,7 @@ var modal = document.getElementById("modal");
 var btn1=document.getElementById("btn1").addEventListener("click",mostrar1);
 var btn2=document.getElementById("btn2").addEventListener("click",mostrar2);
 var btn3=document.getElementById("btn3").addEventListener("click",mostrar3);
-var btn4=document.getElementById("btn4").addEventListener("click",mostrar3)
+var btn4=document.getElementById("btn4").addEventListener("click",mostrar3);
 var borrar = document.getElementsByClassName("cerrar");
      for (var i = 0; i < borrar.length; i++) {
        borrar[i].addEventListener("click",ocultar);
@@ -34,4 +34,3 @@ function mostrar3 () {
 function ocultar () {
     modal.style.display="none";  
 }
-$('.dropdown-toggle').dropdown()

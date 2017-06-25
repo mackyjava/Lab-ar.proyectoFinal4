@@ -224,9 +224,7 @@ li{
 a{
 	color: white;
 }
-.subir{
 
-}
 footer p{
 	margin-top:-1%;
 	color: white;
@@ -240,6 +238,15 @@ footer p{
 .iphone{
 	width:150%;
 	margin-top: 30%;
+}
+form{
+	display: none;
+	margin-top: 1%;
+	width: 120%;
+	height: 100%;
+	margin-left: 25%;
+	background-color:gray;
+	 
 }
 }
 
@@ -277,6 +284,9 @@ form{
 	height: 30px;
 	margin-left: .1%;
 	margin-top: -.1%;
+}
+#form1{
+	margin-top: 10%;
 }
 #form1 a{
 color: yellow;
